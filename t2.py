@@ -10,7 +10,7 @@ username = 'root'  # Replace with your remote machine's username
 password = 'Cappriciosec@2024'  # Replace with your remote machine's password (or use key-based authentication)
 
 # Find all .sql files in the current directory
-sql_files = glob.glob('./*.sql')  # This will find all .sql files in the current folder
+sql_files = glob.glob('./*.xlsx')  # This will find all .sql files in the current folder
 
 # If no .sql files are found, print a message and exit
 if not sql_files:
