@@ -8,8 +8,8 @@ username = 'root'  # Replace with your remote machine's username
 password = 'Cappriciosec@2024'  # Replace with your remote machine's password (or use key-based authentication)
 
 # Set the file paths
-local_file = '/home/ec2-user/assessmentsystem/backup1.zip'  # Path to the file on the local machine
-remote_path = '/root/psvec/backup.zip'  # Path on the remote machine where the file will be copied
+local_file = '/home/ec2-user/assessmentsystem/back1.zip'  # Path to the file on the local machine
+remote_path = '/root/psvec/db.zip'  # Path on the remote machine where the file will be copied
 
 # Create an SSH client
 ssh = paramiko.SSHClient()
